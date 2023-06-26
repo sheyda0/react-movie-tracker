@@ -1,13 +1,75 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
+* {
+	font-family: 'Manrope', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+	font-family: 'PT font-family: ' Manrope ', sans-serif;
+', serif;
 }
+
+.list-box,
+.watched-box {
+	height: calc(100vh - (7.6rem));
+}
+
+.list-box,
+.watched-box {
+	height: calc(100vh - (7.6rem));
+}
+
+/* const tempWatchedData = [
+		{
+			id: 8,
+			title: 'The Lord of the Rings: The Return of the King',
+			poster: 'https://moviesapi.ir/images/tt0167260_poster.jpg',
+			year: '2003',
+			imdb_rating: '8.9',
+			user_rating: '9.3',
+			runtime: '116'
+		},
+		{
+			id: 6,
+			title: "Schindler's List",
+			poster: 'https://moviesapi.ir/images/tt0108052_poster.jpg',
+			year: '1993',
+			imdb_rating: '8.9',
+			user_rating: '9.8',
+			runtime: '136'
+		}
+	]; */
+
+/* const tempMovieData = [
+		{
+			id: 8,
+			title: 'The Lord of the Rings: The Return of the King',
+			poster: 'https://moviesapi.ir/images/tt0167260_poster.jpg',
+			year: '2003',
+			imdb_rating: '8.9',
+			user_rating: '9.3',
+			runtime: '116'
+		},
+		{
+			id: 2,
+			title: 'The Godfather',
+			poster: 'https://moviesapi.ir/images/tt0068646_poster.jpg',
+			year: '1972',
+			imdb_rating: '9.2',
+			user_rating: '9.8',
+			runtime: '136'
+		},
+		{
+			id: 3,
+			title: 'The Good, the Bad and the Ugly',
+			poster: 'https://moviesapi.ir/images/tt0060196_poster.jpg',
+			year: '1966',
+			imdb_rating: '8.9',
+			user_rating: '9.5',
+			runtime: '146'
+		}
+	]; */
